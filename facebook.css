@@ -1,0 +1,102 @@
+@font-face {
+    font-family: my;
+    src: url(klavika.ttf);
+    
+}
+#container{
+    /* border:2px solid black; */
+    height:650px;
+    width:1200px;
+    position: absolute;
+    left:250px;
+}
+#title
+{
+    /* border:2px solid red; */
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 140px;
+    
+}
+#logo
+{
+    height:92px;
+    width:301.06px;
+    font-size: 70px;
+    font-family: my;
+    color:rgb(61, 99, 203);
+    margin-bottom: 10px;
+}
+#para
+{
+    /* border:2px solid green; */
+    margin-top: 10px;
+    font-size: 20px;
+    position: relative;
+    top:2px;
+    font-weight: bold;
+}
+#login
+{
+    height:370px;
+    width:300px;
+    /* border:2px solid red; */
+    display: inline-block;
+    /* margin-left: 70px;
+    margin-top: 80px; */
+    position:relative;
+    top:70px;
+    bottom:50px;
+    left:70px;
+}
+#username
+{
+    height:40px;
+    border-radius: 4px;
+    width:250px;
+    font-size: 17.5px;
+    margin-top: 70px;
+    margin-left: 28px;
+}
+#password
+{
+    height:40px;
+    border-radius: 4px;
+    width:250px;
+    font-size: 17.5px;
+    margin-top: 10px;
+    margin-left: 28px;
+}
+#button
+{
+    margin-top: 10px;
+    margin-left: 28px;
+    margin-bottom: 20px;
+    height:40px;
+    border-radius: 4px;
+    width:260px;
+    background-color: rgb(61,99,203);
+    color:white;
+    font-size: 20px;
+}
+#forgot
+{
+    margin-top: 10px;
+    margin-left: 90px;
+}
+#button1
+{
+    margin-top: 10px;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    height:40px;
+    border-radius: 4px;
+    width:200px;
+    background-color: rgb(54, 184, 71);
+    color:white;
+    font-size: 20px;
+}
+body{
+    background-image: url("fb.jpg");
+    background-size: cover;
+}
